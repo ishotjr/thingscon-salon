@@ -34,7 +34,7 @@ that was the short version; would you like to hear a slightly longer version?
 
 ## it started in Delft!
 Note:
-I'm not sure if any of you were aware of this, but this ThingsCon Salon is a homecoming of sorts - Pebble actually started out as a bike computer - an idea that founder Eric Migicovsky had while riding his opafiets ("grandpa bike") to class at Delft University of Technology!  
+I'm not sure how many of you were aware of this, but this ThingsCon Salon is a homecoming of sorts - Pebble actually started out as a bike computer - an idea that founder Eric Migicovsky had while riding his opafiets ("grandpa bike") to class at Delft University of Technology!  
 TODO: cap of emigi riding bike  
 
 ## Watchduino
@@ -163,7 +163,7 @@ Note: Fitbit did the Pebble community another solid, [extending support for our 
 TODO: https://dev.fitbit.com/images/blog/20180124/180124.Rem%20Tweet-Blog-Hero-a020c32da71df20c5e3c3d66290774aa.jpg  
 
 ### a new hope...
-Note: this is where we got a bit lucky. I've tried not to include names for the most part, since there are far too many contributors to list, but Katharine deserves special mention. The developer of CloudPebble, which was eventually acquired by Pebble (along with KB herself!) had been active in discussions since the beginning of Rebble, but ended up almost single-handedly taking on the task of recreating the necessary web services.  With her [smart glasses project at Intel having been shut down](https://www.theverge.com/2018/4/18/17255354/intel-vaunt-shut-down), along with its parent division (another scoop by The Information!), she had a little time on her hands until her new position at Google started, which lined up perfectly with Pebble's web services' impending doom.  
+Note: this is where we got a bit lucky. I've tried not to include names in this presentation for the most part, since there are far too many contributors to list, but Katharine deserves special mention. The developer of CloudPebble, which was eventually acquired by Pebble (along with KB herself!) had been active in discussions since the beginning of Rebble, but ended up almost single-handedly taking on the task of recreating the necessary web services.  With her [smart glasses project at Intel having been shut down](https://www.theverge.com/2018/4/18/17255354/intel-vaunt-shut-down), along with its parent division (another scoop by The Information!), she had a little time on her hands until her new position at Google started, which lined up perfectly with Pebble's web services' impending doom.  
 TODO: https://pbs.twimg.com/profile_images/1054087765690744832/_o743J4b_400x400.jpg  
 
 ### the Rebble Alliance
@@ -171,32 +171,32 @@ Note: it turns out that running servers costs money, so we had to form Rebble Al
 TODO: obfuscated spreadsheet fragment  
 
 ### it's Rebble time!
-Note: leveraging the boot server override mentioned earlier, it's now possible to convert all of a user's API endpoints to Rebble Web Services [wit the tap of a button](http://rebble.io/howto/).  Users who created a Rebble account before the June 30th deadline were even able to carry over their existing apps.  A tweet from Eric urging users to sign up before the deadline gave us a significant signal boost, resulting in coverage in most of the major tech blogs.  And in over 100,000 users tapping on the aforementioned button!!!  
+Note: leveraging the boot server override mentioned earlier, it's now possible to convert all of a user's API endpoints to Rebble Web Services [with the tap of a button](http://rebble.io/howto/).  Users who created a Rebble account before the June 30th deadline were even able to carry over their existing apps.  A tweet from Eric urging users to sign up before the deadline gave us a significant signal boost, resulting in coverage in most of the major tech blogs.  And in over 100,000 users tapping on the aforementioned button!!!  
 TODO: Stripe customer graph obfuscated by emigi tweet: https://twitter.com/ericmigi/status/1007441782848679936  
 
 
 
-## Mobile apps
+## mobile apps
 Note: unlike web services which had a specific expiration date, the mobile apps continue to function for the most part.  Every major iOS and Android release is met with fear that it may finally render our devices non-functional, but for a platform that "died" two and half years ago, Pebble is doing amazingly well.  Fitbit were kind enough to release updated versions of the apps which relaxed their reliance on cloud services - and specifically facilitated the backdoor method by which we'd loaded our alternative appstore.  We had a small setback recently when the Android app was removed from Google Play due to new permission requirements (nobody got the warning emails unfortunately) but we're working with Fitbit to try to get that resolved, and have an archived copy available in the meantime.  
 
 ### Gadgetbridge, Dialer and the Rebble suite
-Note: existing Android app [Gadgetbridge already supports most Pebble functionality](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Pebble), with some intentional limitations due to their focus on privacy.  We recently acquired [Dialer for Pebble](https://apps.rebble.io/en_US/application/532323bf60c773c1420000a8?section=watchapps), which users have been using as a workaround for an issue displaying caller info on Android 9, in order to continue maintenance and address a few known issues and limitations.  Eventually, I envision offering a suite of Rebble enhancements and workarounds to optimize the user experience as various legacy code and functionality runs into barriers.  The existence of workarounds relaxed the need for ground-up replacement apps, so these have not received much developer attention lately.  
+Note: existing Android app [Gadgetbridge already supports most Pebble functionality](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/Pebble), with some intentional limitations due to their focus on privacy.  We recently acquired [Dialer for Pebble](https://apps.rebble.io/en_US/application/532323bf60c773c1420000a8?section=watchapps) - which users have been leveraging as a workaround for an issue displaying caller info on Android 9 - in order to continue maintenance and address a few known issues and limitations.  Eventually, I envision offering a suite of Rebble enhancements and workarounds to optimize the user experience as various legacy code and functionality runs into barriers.  The existence of workarounds relaxed the need for ground-up replacement apps, so these have not received much developer attention lately.  
 TODO: Dialer for Rebble cap  
 
 
 
-## Who made Rebble possible?
+## who made Rebble possible?
 
 ### Pebble
-Note: Pebble developed a passionate community of users via their Kickstarter, social media, and other outreach efforts.  Their single greatest achievement, and the reason why Rebble has worked, in my opinion, is their phenomenal developer community, fostered by an amazing developer relations team, unparalleled documentation and examples, delightful dev tools and SDK, and events like the hackathons that I attended, the meetups that I and other "Rockstars" organized, and their legendary annual developer retreats.  
+Note: Pebble developed a passionate community of users via their Kickstarter, social media, and other outreach efforts.  Their single greatest achievement, and the reason why Rebble has worked, in my opinion, is their phenomenal developer community, fostered by an amazing developer relations team, unparalleled documentation and examples, delightful dev tools and SDK, and events like the hackathons that I attended, the meetups that I and other "Rockstars" organized, and their legendary annual developer retreats.  Additionally, their propensity to keep things "open" - for example allowing sideloading of watchfaces and apps, or having screws on the backs of later "OG" Pebbles to facilitate repair - has helped the ecosystem outlive its creators.    
 TODO: devrel/docs  
 
 ### Fitbit
 Note: I take every opportunity that I get to thank Fitbit for their ongoing support and cooperation - it's easy to see them as having "killed" Pebble, but really Pebble died on its own, and Fitbit just acquired some choice pieces from what remained.  And their web services extension, mobile app updates, and ongoing cooperation has made our work at Rebble much easier than it could possibly have been otherwise.  
-TODO:  
+TODO: pebbleXfitbit  
 
 ### contribs
-Note: I'm not going to name names because there have been dozens upon dozens of contributors along our journey - but every contribution - whether a simple graphical asset, or an entire swath of functionality - is a work of passion, and something for which the entire Pebble community is eternally greatful.  One of my personal favorite things to see with this project is novice devs working with more experienced team leaders to make real, lasting contributions that they can point to and say "I did that!"  Thanks to everything being open source, we recently had a contribution out of the blue that implements the missing Timeline functionality, which just blew me away!  
+Note: I'm not going to name names because there have been dozens upon dozens of contributors along our journey - but every contribution - whether a simple graphical asset, or an entire swath of functionality - is a work of passion, and something for which the entire Pebble community is eternally grateful.  One of my personal favorite things to see with this project is novice devs working with more experienced team leaders to make real, lasting contributions that they can point to and say "I did that!"  Thanks to everything being open source, we recently had a contribution out of the blue that implements the missing Timeline functionality, which just blew me away!  
 TODO: team/contribs  
 
 ### support
@@ -214,5 +214,36 @@ TODO: heart
 
 
 ## looking forward
-Note: TODO: challenges, lack of competition, motivation, hardware  
+Note: 
 TODO: rocket/soon  
+
+### challenges
+Note: one of the biggest challenges we face is the relentless pace of technology, while much of the Pebble ecosystem remains frozen in time.  The mobile apps for example are a constant source of anxiety, with each major OS version potentially breaking something which we have absolutely no control over or ability to update.  Hardware is also in finite supply - there will never be *more* Pebble watches than there are today, only fewer - and as batteries age and buttons break and waterproofing fails, the supply continues to shrink.    
+TODO: this is fine  
+
+### competition
+Note: while legions of fans look to Rebble to keep their Pebbles alive, one of the surprising things we've seen is the number of *new* Pebble users - countless Reddit comments and Discord messages and emails from users who bought a Pebble for the first time specifically on the strength of the ecosystem as it stands today.  There's still really nothing quite like Pebble; I've accumulated over a dozen smartwatches trying to find anything even close; a lot of us hoped Fitbit's acquisition would mean something Pebble-like, but even the Versa, which may vaguely resemble the Pebble Time Steel physically, has proven an absurdly far cry in my experience: pathetic battery life (often less than two days), no always-on screen - and the screen never ever comes on with the raised arm gesture, continual syncing and Bluetooth problems - and just NONE of the charm and raw utility of the Pebble.  
+TODO: TODO  
+
+### `TODO`
+Note: at present we have a functioning appstore, but no replacement developer portal, meaning no new apps have been available in the appstore since mid-2017.  I've got a plan for a workaround but have not had time to develop it yet.  Thankfully watchfaces/apps can be sideloaded, so the main shortcoming of the current situation is the lack of aggregation.  Timeline was another feature that was not possible to ship in time for the June cutoff, but we've actually received a pull request from a previously unknown contributor which looks extremely promising and should hopefully be deployed soon.  
+TODO: dev portal cap - see ishotjr?  
+
+### hardware
+Note: there are currently multiple replacement hardware projects in progress.  A friend and I developed a FreeRTOS-based e-paper prototype in early 2017, and though I got a bit busy with other Rebble stuff in the interim, we recently picked back up on a new color prototype.  Additionally, another "big board" and form factor prototype are underway in the `#hardware` channel on Discord; so the likelihood of replacements existing by the time original hardware starts to dry up seems more and more promising.  
+TODO: Josh' big board, aion original and new prototypes  
+
+### community
+Note: as I type this there are over 700 users online on our Discord server.  The Pebble subreddit has almost 37,000 members, with 128 online as I write.  Close to 8,000 individual customers have made subscription payments.  I have at least a dozen or so support emails that I've had to ignore for a bit to get my presentation done in time.  The community is thriving, growing, with new innovations, unbridled enthusiasm, and an incredibly bright future.    
+TODO: discord online cap?  
+
+
+
+## Rebble: Pebble Reborn
+### ishotjr
+Lead Emoji Sprinkler, Rebble  
+https://twitter.com/IShJR  
+https://github.com/ishotjr  
+<sub>
+	https://github.com/ishotjr/thingscon-salon  
+</sub> 
