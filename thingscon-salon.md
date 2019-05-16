@@ -212,12 +212,15 @@ Note: even if you're not a developer, or member of the support team, or a subscr
 <!-- .slide: data-background-image="images/rocket.png" data-background-opacity="0.14" data-background-size="42%" -->
 ## looking forward
 
+<!-- .slide: data-background-image="images/fe504504.png" data-background-opacity="0.21" -->
 ### challenges
 Note: one of the biggest challenges we face is the relentless pace of technology, while much of the Pebble ecosystem remains frozen in time.  The mobile apps for example are a constant source of anxiety, with each major OS version potentially breaking something which we have absolutely no control over or ability to update.  Hardware is also in finite supply - there will never be *more* Pebble watches than there are today, only fewer - and as batteries age and buttons break and waterproofing fails, the supply continues to shrink.    
 
+<!-- .slide: data-background-image="images/ZeTime.jpg" data-background-opacity="0.14" -->
 ### competition
 Note: while legions of fans look to Rebble to keep their Pebbles alive, one of the surprising things we've seen is the number of *new* Pebble users - countless Reddit comments and Discord messages and emails from users who bought a Pebble for the first time specifically on the strength of the ecosystem as it stands today.  There's still really nothing quite like Pebble; I've accumulated over a dozen smartwatches trying to find anything even close; a lot of us hoped Fitbit's acquisition would mean something Pebble-like, but even the Versa, which may vaguely resemble the Pebble Time Steel physically, has proven an absurdly far cry in my experience: pathetic battery life (often less than two days), no always-on screen - and the screen never ever comes on with the raised arm gesture, continual syncing and Bluetooth problems - and just NONE of the charm and raw utility of the Pebble.  
 
+<!-- .slide: data-background-image="images/todo.png" data-background-opacity="0.14" data-background-size="84%" -->
 ### `TODO`
 Note: at present we have a functioning appstore, but no replacement developer portal, meaning no new apps have been available in the appstore since mid-2017.  I've got a plan for a workaround but have not had time to develop it yet.  Thankfully watchfaces/apps can be sideloaded, so the main shortcoming of the current situation is the lack of aggregation.  Timeline was another feature that was not possible to ship in time for the June cutoff, but we've actually received a pull request from a previously unknown contributor which looks extremely promising and should hopefully be deployed soon.  
 
