@@ -8,7 +8,7 @@ https://github.com/ishotjr
 	*press `S` to view speaker notes, which include a ton of great links!!*
 </sub>  
 Note:
-Hi, I'm ishotjr; I'm not big on fancy titles so I prefer to go by "Lead Emoji Sprinkler" at Rebble, since I'm notorious for my overuse of emoji reactions in Discord and when writing blog posts and ... anywhere else it's possible to use emojis!  The last link here is the repo for this presentation - if you press `s` while viewing it you can see my speaker notes which include a ton of source links and other fun facts!  
+Hi, my name is David, though most people online know me as ishotjr; I'm not big on fancy titles so I prefer to go by "Lead Emoji Sprinkler" at Rebble, since I'm notorious for my overuse of emoji reactions in Discord and when writing blog posts and ... anywhere else it's possible to use emojis!  The last link here is the repo for this presentation - if you press `s` while viewing it you can see my speaker notes which include a ton of source links and other fun facts!  
 TODO: bowtie/star man/my ten watches as background  
 
 
@@ -44,7 +44,7 @@ TODO: cap from vid
 
 ## the Allerta inPulse
 Note:
-The Watchduino prototype evolved into the [inPulse smartwatch](https://web.archive.org/web/20121105155457/http://www.getinpulse.com/specs) for BlackBerry (and was eventually made compatible with some Android devices).  They were accepted into the [Y Combinator](https://www.ycombinator.com/) program (spoiler: [Eric became a partner](https://blog.ycombinator.com/welcome-eric-holly-diego-matt-nic-kyle-adele-jose-matt-ramon-and-gia/) there post-Pebble) and after running into difficulty funding their next evolution, [turned to Kickstarter](https://www.kickstarter.com/projects/getpebble/pebble-e-paper-watch-for-iphone-and-android), where they raised 10 times their $100,000 goal in 28 hours, ultimately exceeding 100 times the original target with a final total of $10.2MM - [a Kickstarter record at the time](https://www.kickstarter.com/projects/getpebble/pebble-e-paper-watch-for-iphone-and-android/posts/209297) - a [record still held by Pebble](https://www.kickstarter.com/discover/most-funded) thanks to the subsequent [Pebble Time campaign](https://www.kickstarter.com/projects/getpebble/pebble-time-awesome-smartwatch-no-compromises).  
+The Watchduino prototype evolved into the [inPulse smartwatch](https://web.archive.org/web/20121105155457/http://www.getinpulse.com/specs) for BlackBerry (and was eventually made compatible with some Android devices).  They were accepted into the [Y Combinator](https://www.ycombinator.com/) program (spoiler: [Eric became a partner](https://blog.ycombinator.com/welcome-eric-holly-diego-matt-nic-kyle-adele-jose-matt-ramon-and-gia/) there post-Pebble) and after running into difficulty funding their next evolution, [turned to Kickstarter](https://www.kickstarter.com/projects/getpebble/pebble-e-paper-watch-for-iphone-and-android), where they raised 10 times their $100,000 goal in 28 hours, ultimately exceeding 100 times the original target with a final total of $10.2MM - [a Kickstarter record at the time](https://www.kickstarter.com/projects/getpebble/pebble-e-paper-watch-for-iphone-and-android/posts/209297) - a [record still held by Pebble](https://www.kickstarter.com/discover/most-funded) thanks to the subsequent [Pebble Time Kickstarter campaign](https://www.kickstarter.com/projects/getpebble/pebble-time-awesome-smartwatch-no-compromises).  
 
 
 
@@ -54,7 +54,7 @@ So, that's a little history on Pebble - I wanted to share my own story to help e
 
 ### Kickstarter
 Note:
-Pebble was the first Kickstarter project I had ever backed, and I was actually pretty disappointed with the delays (I chose grey, and it shipped after black Pebbles were already available on store shelves) - and then when it finally arrived it had a screen tearing issue right out of the box (but quickly received a replacement).  
+Pebble was the first Kickstarter project I had ever backed, and I was actually pretty disappointed with the delays (I chose grey, and it shipped after black Pebbles were already available on store shelves) - and then when it finally arrived it had a screen tearing issue right out of the box (but Pebble quickly sent a replacement, which worked great!).  That might have been the extent of my Pebble story, but...
 TODO: Kickstarter/PebblePressPack1  
 
 ### SDK
@@ -71,8 +71,8 @@ TODO: PRB pics
 ### Time for Another Round (Ottawa)
 #### layoffs?!
 Note:
-half a year flew by, and after the amazing experience I'd had at PRB (we won, but the real prize was getting to meet so many other Pebble devs and even real, live, actual Pebblers!), I jumped at the opportunity to attend another hackathon (I say "jumped" but what I really mean is "drove North for 10 hours into a frozen Canadian winter hellscape"!).  Another amazing event (and another win) *but* with [Pebble having just laid off 25% of its workforce](https://www.theverge.com/2016/3/23/11292742/pebble-laying-off-25-percent-of-staff), the Pebble staff who were originally to attend had to cancel their plans.  
-TODO: Twitter pic  
+half a year flew by, and after the amazing experience I'd had at PRB (we won, but the real prize was getting to meet so many other Pebble devs and even real, live, actual Pebblers!), I jumped at the opportunity to attend [another hackathon](https://www.meetup.com/FitbitYOW/events/229031503/) (I say "jumped" but what I really mean is "drove North for 10 hours into a frozen Canadian winter hellscape"!) - this time with a focus on the Health and Timeline APIs, the new Clay configuration framework, and the recently-released Pebble Time Round.  Another amazing event (and another win) *but* with [Pebble having just laid off 25% of its workforce](https://www.theverge.com/2016/3/23/11292742/pebble-laying-off-25-percent-of-staff), the Pebble staff who were originally to attend had to cancel their plans.  
+TODO: Twitter or Meetup pic  
 
 ### Pebble A2 (Rockstar)
 #### the book
@@ -84,7 +84,7 @@ TODO: PebbleA2 logo and group pic
 ### Pokemon GO Radar
 ### smartstraps
 Note:
-Meanwhile I continued to spend all of my time on Pebble development, such as the [Pokemon GO Radar Pebble Watchapp](http://ishotjr.com/pokemon-go-radar-pebble-watchapp-poc/) (#10 game of all time!) and [PW-DOS Keyboard Smartstrap](http://ishotjr.github.io/2015/11/29/pw-dos-touchscreen-keyboard-pebble-smartstrap.html)  
+Meanwhile I continued to spend all of my free time on Pebble development, such as the [Pokemon GO Radar Pebble Watchapp](http://ishotjr.com/pokemon-go-radar-pebble-watchapp-poc/), which let you chase down Pokemon in real life using the Pebble's compass and reached #10 game of all time in the appstore - and [PW-DOS Keyboard Smartstrap](http://ishotjr.github.io/2015/11/29/pw-dos-touchscreen-keyboard-pebble-smartstrap.html), a ridiculous external keyboard for my silly DOS-simulating watchface!  
 TODO: PoGO Radar Twitter pic and PW-DOS keyboard smartstrap  
 
 
